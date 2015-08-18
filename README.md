@@ -17,31 +17,31 @@ dependencies {
 
 Not a complete list! See the resources at the end for the latest documentation.
 
-### `@NonNull` and `@Nullable`
+### 1 - `@NonNull` and `@Nullable`
 
 Motivations:
  - Avoiding needless `if (value == null) { /* dead code! */ }` checks.
  - Ensuring callers handle null conditions
 
-### `@StringRes`, `@ColorRes`, etc
+### 2 - `@StringRes`, `@ColorRes`, etc
 
 Motivations:
  - You've grown to hate passing `int` values throughout your code.
  - You've passed an `int` color identifier into something that expected an `int` RGBA color and lost half a day finding the bug.
 
-### `@RequiresPermission`
+### 3 - `@RequiresPermission`
 
 Motivations:
  - Avoiding annoying runtime `java.lang.SecurityException: Permission Denial ...` crashes because of missing `AndroidManifest.xml` entries.
  - Very useful for library projects!
 
-### `@CallSuper` and `@CheckResult`
+### 4 - `@CallSuper` and `@CheckResult`
 
 Motivations:
  - You have a base class that has methods that can be overridden but still need to be called.
  - You have a method that returns a value that should not be ignored.
 
-### `@VisibleForTesting`
+### 5 - `@VisibleForTesting`
 
 Motivations:
 - You have comments in your code that look like `// package scope for testing`
