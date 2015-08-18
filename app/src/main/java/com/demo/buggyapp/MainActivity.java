@@ -50,6 +50,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void doSomeSetup() {
         // Bug #4a - Not calling base class implementation like the documentation states
+        super.doSomeSetup();
 
         String message = username == null ? "No username" : String.format("The username is %d long", calculateUsernameLength(username));
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
