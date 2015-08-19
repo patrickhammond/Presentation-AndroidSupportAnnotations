@@ -22,7 +22,7 @@ Any time I discover a stupid bug that tooling could have helped prevent, in my h
 
 https://www.youtube.com/embed/rX7wtNOkuHo
 
-I don’t like to hear Nelson mocking me, so I aggressively look for ways to eliminate bugs.  Mostly, I just don’t like bugs.
+I don’t like to hear Nelson mocking me, so I aggressively look for ways to eliminate bugs.
 
 ## Setup
 
