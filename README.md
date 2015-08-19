@@ -4,7 +4,6 @@ Sample project demonstrating several of the Android Support Annotations.
 
 - The `master` branch has unideal code.
 - The `better_code` branch has _slightly_ less unideal code demonstrating support annotation usage.
-- The `gh_pages` branch is the presentation site.
 
 Recommendation:
 Open this project in Android Studio 1.3+ while exploring support annotation usage.
